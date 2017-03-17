@@ -1,4 +1,5 @@
-function Doctor() {
+function Doctor(medicalIssue) {
+  this.medicalIssue = [];
 }
 
 Doctor.prototype.findDoctors = function(userInput) {
