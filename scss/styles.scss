@@ -1,3 +1,6 @@
+$primary-color : #C5E7E2;
+$secondary-color: #B5DFCA;
+
 * {
   border-radius: 0 !important;
 }
@@ -6,16 +9,29 @@ body {
   background-color: white;
 }
 
+.btn {
+  background-color: $secondary-color;
+}
+
 .btn:hover {
   opacity: 0.8;
 }
 
-#doctorImage {
+.colorSplash {
+  color: $primary-color;
+  -webkit-text-stroke: 1px $secondary-color;
+}
 
+.page-header {
+  margin-bottom: 40px;
+}
+
+#doctorInfo {
+  padding-bottom: 40px;
 }
 
 #noShow {
-
+  font-size: 35px;
 }
 
 #pageTitle {
@@ -25,20 +41,6 @@ body {
   text-align: center;
 }
 
-#showDoctor {
-  h2 {
-
-  }
-
-  blockquote {
-
-  }
-}
-
-#userInput {
-
-}
-
 #userSubmit {
   position: relative;
   margin: auto;
@@ -46,4 +48,5 @@ body {
   display: block;
   margin: auto;
   margin-top: 10px;
+  margin-bottom: 40px;
 }
