@@ -48,6 +48,8 @@ gulp.task('build', ['clean'], function() {
   } else {
     gulp.start('jsBrowserify');
   }
+  gulp.start('bower');
+  gulp.start('cssBuild');
 });
 
 gulp.task('build', function() {

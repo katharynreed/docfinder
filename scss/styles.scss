@@ -1,0 +1,49 @@
+* {
+  border-radius: 0 !important;
+}
+
+body {
+  background-color: white;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+#doctorImage {
+
+}
+
+#noShow {
+
+}
+
+#pageTitle {
+  padding-top: 10%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  text-align: center;
+}
+
+#showDoctor {
+  h2 {
+
+  }
+
+  blockquote {
+
+  }
+}
+
+#userInput {
+
+}
+
+#userSubmit {
+  position: relative;
+  margin: auto;
+  width: 180px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
